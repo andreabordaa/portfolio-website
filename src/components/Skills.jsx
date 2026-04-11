@@ -35,7 +35,7 @@ const technicalSkills = [
   { name: "HTML", icon: FaHtml5, color: "#e34f26" },
   { name: "CSS", icon: FaCss3Alt, color: "#1572b6" },
   { name: "C#", icon: TbBrandCSharp, color: "#9b4993" },
-  { name: "MySQL", icon: TbBrandCSharp, color: "#4479a1" },
+  { name: "MySQL", icon: TbBrandMysql, color: "#4479a1" },
   // Frameworks & Libraries
   { name: "React", icon: SiReact, color: "#61dafb" },
   { name: "Node.js", icon: FaNodeJs, color: "#339933" },

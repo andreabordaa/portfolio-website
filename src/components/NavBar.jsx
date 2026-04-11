@@ -8,10 +8,12 @@ export default function NavBar({ theme }) {
       className={`fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-8 py-4 ${theme.navBg} backdrop-blur-md border-b border-[#3A3060]`}
     >
       {/* Logo */}
-      <h1 className="bg-gradient-to-r from-[#D7ADFF] to-[#FF32D9] bg-clip-text text-transparent tracking-widest text-md">
-        ANDREA
-        <span className="font-semibold">BORDA</span>
-      </h1>
+      <a href="#hero">
+        <h1 className="bg-gradient-to-r from-[#D7ADFF] to-[#FF32D9] bg-clip-text text-transparent tracking-widest text-md">
+          ANDREA
+          <span className="font-semibold">BORDA</span>
+        </h1>
+      </a>
 
       {/* Nav Links */}
       <ul className="flex items-center gap-8 text-md tracking widest">
