@@ -7,9 +7,11 @@ export default function ProjectCard({ project, theme }) {
     >
       <div className="h-1 w-full" style={{ background: project.color }} />
       {/* Image placeholder */}
-      <div className="w-full h-40 bg-[#2D2550] flex items-center justify-center">
-        <span className="text-slate-500 text-md">preview</span>
-      </div>
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-40 object-cover"
+      />
 
       {/* Card content */}
       <div className="flex flex-col gap-3 p-5 flex-1">

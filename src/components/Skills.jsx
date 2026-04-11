@@ -38,18 +38,18 @@ const technicalSkills = [
   { name: "MySQL", icon: TbBrandMysql, color: "#4479a1" },
   // Frameworks & Libraries
   { name: "React", icon: SiReact, color: "#61dafb" },
+  { name: "Tailwind", icon: SiTailwindcss, color: "#06b6d4" },
   { name: "Node.js", icon: FaNodeJs, color: "#339933" },
   { name: "Express.js", icon: SiExpress, color: "#ffffff" },
-  { name: "Tailwind", icon: SiTailwindcss, color: "#06b6d4" },
   // Tools
+  { name: "Linux", icon: FaLinux, color: "#fcc624" },
   { name: "Git", icon: FaGitAlt, color: "#f05032" },
   { name: "GitHub", icon: FaGithub, color: "#ffffff" },
   { name: "VS Code", icon: TbBrandVisualStudio, color: "#007acc" },
   { name: "Postman", icon: SiPostman, color: "#ff6c37" },
   { name: "Figma", icon: FaFigma, color: "#f24e1e" },
-  { name: "Linux", icon: FaLinux, color: "#fcc624" },
-  { name: "Bash", icon: SiGnubash, color: "#4eaa25" },
   { name: "Canva", icon: SiCanva, color: "#00c4cc" },
+  { name: "Bash", icon: SiGnubash, color: "#4eaa25" },
   // Platforms
   { name: "Vercel", icon: SiVercel, color: "#ffffff" },
   { name: "Render", icon: SiRender, color: "#46e3b7" },
