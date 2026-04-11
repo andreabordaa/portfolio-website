@@ -5,13 +5,15 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 export default function App() {
-  const theme = getThemeClasses();
+  const [darkMode, setDarkMode] = useState(true);
+  const theme = getThemeClasses(darkMode);
 
   return (
     <div className={`min-h-screen ${theme.bg} ${theme.text}`}>
-      <NavBar theme={theme} />
+      <NavBar theme={theme} darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero theme={theme} />
       <Projects theme={theme} />
       <Skills theme={theme} />

@@ -11,7 +11,9 @@ export default function Hero({ theme }) {
       <div className="absolute w-[400px] h-[400px] rounded-full bg-[#FDF8A1] opacity-20 blur-[120px] top-[40%] left-[35%] animate-blob animation-delay-4000" />
 
       <div className="relative z-10 text-center flex flex-col items-center gap-6">
-        <h1 className="text-4xl md:text-6xl font-semibold text-white min-h-[1.2em]">
+        <h1
+          className={`text-4xl md:text-6xl font-semibold ${theme.text} min-h-[1.2em]`}
+        >
           hi{""}
           <TypeAnimation
             sequence={[", my name is Andrea.", 2000, "", 500]}

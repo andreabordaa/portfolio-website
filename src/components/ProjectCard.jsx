@@ -13,7 +13,9 @@ export default function ProjectCard({ project, theme }) {
 
       {/* Card content */}
       <div className="flex flex-col gap-3 p-5 flex-1">
-        <h3 className="text-white font-semibold text-lg">{project.title}</h3>
+        <h3 className={`${theme.text} font-semibold text-lg`}>
+          {project.title}
+        </h3>
         <p className={`text-sm leading-relazed ${theme.textSecondary}`}>
           {project.description}
         </p>
@@ -36,8 +38,8 @@ export default function ProjectCard({ project, theme }) {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center
-          gap-2 text-sm text-slate-300 hover:text-white translation"
+            className={`flex items-center
+          gap-2 text-sm ${theme.textSecondary} hover:text-white translation`}
           >
             <FiGithub /> GitHub Repo
           </a>

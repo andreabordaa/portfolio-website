@@ -9,7 +9,7 @@ export default function Projects({ theme }) {
     >
       {/* Projects Heading */}
       <div className="flex flex-col items-center gap-3">
-        <h2 className="text-4xl font-semibold text-white">PROJECTS</h2>
+        <h2 className={`text-4xl font-semibold ${theme.text}`}>PROJECTS</h2>
         <div className="w-12 h-[2px] bg-gradient-to-r from-[#FF32D9] to-[#D7ADFF] rounded-full" />
       </div>
 

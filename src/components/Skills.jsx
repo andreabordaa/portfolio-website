@@ -73,12 +73,12 @@ export default function Skills({ theme }) {
     >
       {/* Skills Heading */}
       <div className="flex flex-col items-center gap-3">
-        <h2 className="text-4xl font-semibold text-white">SKILLS</h2>
+        <h2 className={`text-4xl font-semibold ${theme.text}`}>SKILLS</h2>
         <div className="w-12 h-[2px] bg-gradient-to-r from-[#FF32D9] to-[#D7ADFF] rounded-full" />
 
         <div className="flex flex-col gap-12 w-full max-w-4xl">
           {/* Technical Skills */}
-          <h3 className="text-[#D7ADFF] text-md tracking-widest font-medium">
+          <h3 className="text-[#C89AF5] text-md tracking-widest font-medium">
             Technical Skills
           </h3>
           <div
@@ -92,7 +92,7 @@ export default function Skills({ theme }) {
           </div>
 
           {/* Soft Skills Container */}
-          <h3 className="text-[#D7ADFF] text-md tracking-widest font-medium">
+          <h3 className="text-[#C89AF5] text-md tracking-widest font-medium">
             Soft Skills
           </h3>
           <div

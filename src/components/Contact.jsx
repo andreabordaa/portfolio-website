@@ -10,7 +10,9 @@ export default function Contact({ theme }) {
     >
       {/* Contact Heading */}
       <div className="flex flex-col gap-3">
-        <h2 className="text-4xl font-semibold text-white">LET'S CONNECT</h2>
+        <h2 className={`text-4xl font-semibold ${theme.text}`}>
+          LET'S CONNECT
+        </h2>
         <div className="w-12 h-[2px] bg-gradient-to-r from-[#FF32D9] to-[#D7ADFF] rounded-full mx-auto" />
       </div>
 
@@ -34,7 +36,7 @@ export default function Contact({ theme }) {
           href="https://linkedin.com/in/andreaborda/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 rounded-full border border-[#D30EAF] text-slate-300 text-sm hover:bg-[#D30EAF] hover:text-white transition"
+          className={`flex items-center gap-2 px-6 py-3 rounded-full border border-[#D30EAF] ${theme.textSecondary} text-sm hover:bg-[#D30EAF] hover:text-white transition`}
         >
           <FaLinkedinIn className="text-base" /> LinkedIn
         </a>
@@ -43,7 +45,7 @@ export default function Contact({ theme }) {
           href="https://github.com/andreabordaa"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 rounded-full border border-[#9937DF] text-slate-300 text-sm hover:bg-[#9937DF] hover:text-white transition"
+          className={`flex items-center gap-2 px-6 py-3 rounded-full border border-[#9937DF] ${theme.textSecondary} text-sm hover:bg-[#9937DF] hover:text-white transition`}
         >
           <FaGithub className="text-base" /> GitHub
         </a>
@@ -53,7 +55,7 @@ export default function Contact({ theme }) {
           href="https://github.com/andreabordaa"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 rounded-full border border-[#8D83BB] text-slate-300 text-sm hover:bg-[#8D83BB] hover:text-white transition"
+          className={`flex items-center gap-2 px-6 py-3 rounded-full border border-[#8D83BB] ${theme.textSecondary} text-sm hover:bg-[#8D83BB] hover:text-white transition`}
         >
           <HiOutlineDocument className="text-base" /> Resume
         </a>
