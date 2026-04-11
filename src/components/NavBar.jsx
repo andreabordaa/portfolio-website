@@ -15,15 +15,24 @@ export default function NavBar({ theme }) {
 
       {/* Nav Links */}
       <ul className="flex items-center gap-8 text-md tracking widest">
-        <li className="text-slate-300 hover:text-white transition cursor-pointer">
+        <a
+          href="#projects"
+          className="text-slate-300 hover:text-white transition tracking-widest text-sm"
+        >
           PROJECTS
-        </li>
-        <li className="text-slate-300 hover:text-white transition cursor-pointer">
+        </a>
+        <a
+          href="#skills"
+          className="text-slate-300 hover:text-white transition tracking-widest text-sm"
+        >
           SKILLS
-        </li>
-        <li className="text-slate-300 hover:text-white transition cursor-pointer">
+        </a>
+        <a
+          href="#contact"
+          className="text-slate-300 hover:text-white transition tracking-widest text-sm"
+        >
           CONTACT
-        </li>
+        </a>
 
         {/* Light/Dark Mode toggle button */}
         <li

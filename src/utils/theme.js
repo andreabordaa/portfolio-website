@@ -8,7 +8,7 @@ export default function getThemeClasses() {
     accentLavender: "text-[#D7ADFF]",
     cardBg: "bg-[#231D3D]",
     cardBorder: "border border-[#3a3060]",
-    navBg: "bg-[#18142C]/90",
+    navBg: "bg-[#18142C]/80",
     buttonPrimary:
       "bg-gradient-to-r from-[#FF32D9] to-[#D7ADFF] text-white rounded-full px-6 py-3 hover:opacity-90 transition",
     buttonOutline:
