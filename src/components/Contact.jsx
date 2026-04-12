@@ -52,7 +52,7 @@ export default function Contact({ theme }) {
 
         {/* Resume — outline */}
         <a
-          href="https://github.com/andreabordaa"
+          href="/AndreaBordaResume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={`flex items-center gap-2 px-6 py-3 rounded-full border border-[#8D83BB] ${theme.textSecondary} text-sm hover:bg-[#8D83BB] hover:text-white transition`}
